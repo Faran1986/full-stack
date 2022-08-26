@@ -43,7 +43,7 @@ function App() {
   // Function for getting data from backend
   const getData = async () => {
     const response = await axios.get(
-      "http://syed-akhter.local/wp-json/wp/v2/pages/9"
+      "https://www.developerpro.co/faranshaw/wp-json/wp/v2/pages/9"
     );
     const res = await response.data;
     setData(res);
